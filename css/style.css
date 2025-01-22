@@ -88,6 +88,7 @@
   color: white;
   transition: 0.3s;
 }
+/* color styles */
 
 .home-color {
   color: rgba(254, 163, 1, 1);
@@ -100,6 +101,10 @@
 }
 .admission-color {
   color: rgba(93, 88, 239, 1);
+}
+
+.border-orange {
+  border-color: #fea301;
 }
 
 /* Main section */
@@ -374,25 +379,77 @@ main {
   margin-left: 25px;
   margin-right: 100px;
 }
+footer {
+  background-color: #3cd8e8;
+  color: white;
+  height: 520px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-nav {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.footer-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.about-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 220px;
+}
+.logo-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+}
+
+.logo-side img {
+  width: 82px;
+  height: 82px;
+}
+
+.touch-title {
+  font-size: 26px;
+  font-weight: 700;
+}
 
 /* Responsive style */
 
 @media screen and (max-width: 576px) {
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .logo-side {
+    margin-right: 100px;
+  }
   .nav-menu,
   .btn-contact {
     display: none;
   }
   .navbar {
     justify-content: space-between;
-    /* border: 0.5px solid #fea301; */
   }
   .text-logo {
     display: none;
   }
 
   .border-orange {
-    background-color: #fea301;
-    width: 100%;
+    border-color: #fea301;
   }
   .banner-container {
     display: flex;
