@@ -272,6 +272,18 @@ main {
   border-radius: 30px;
   cursor: pointer;
 }
+
+.left-arrow:hover {
+  background-color: rgb(247, 164, 20);
+  color: black;
+  transition: 0.3s;
+}
+.right-arrow:hover {
+  background-color: rgb(247, 164, 20);
+  color: black;
+  transition: 0.3s;
+}
+
 .right-arrow {
   background-color: rgba(254, 163, 1, 1);
   color: white;
