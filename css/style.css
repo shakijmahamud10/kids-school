@@ -393,7 +393,7 @@ main {
   margin-right: 100px;
 }
 footer {
-  background-color: #3cd8e8;
+  background-color: rgba(1, 172, 253, 1);
   color: white;
   height: 520px;
   max-width: 1440px;
