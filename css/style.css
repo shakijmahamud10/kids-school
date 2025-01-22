@@ -52,6 +52,8 @@
   cursor: pointer;
 }
 
+/* Hover Effect */
+
 .btn-contact:hover {
   background-color: rgb(209, 137, 12);
 }
@@ -65,6 +67,8 @@
   cursor: pointer;
   font-family: quicksand;
 }
+
+/* Hover Effect */
 
 .btn-enroll:hover {
   background-color: rgb(19, 13, 43);
@@ -83,6 +87,9 @@
   margin-top: 20px;
   font-family: quicksand;
 }
+
+/* Hover Effect */
+
 .btn-view:hover {
   background-color: rgb(19, 13, 43);
   color: white;
